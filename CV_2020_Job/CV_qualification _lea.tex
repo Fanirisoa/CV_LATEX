@@ -1,0 +1,428 @@
+% cv version fran?aise
+
+\documentclass{article}
+
+\usepackage{verbatim}
+ \usepackage[latin1]{inputenc} 
+ \usepackage{graphics} 
+ \usepackage{color} 
+\usepackage{booktabs}  
+\usepackage{rotating}
+
+\usepackage{mathrsfs}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+%%%% debut macro %%%%
+
+%dimension de la page
+
+%\setlength{\topmargin}{2mm}
+%\setlength{\headheight}{0mm}
+%\setlength{\headsep}{0mm}
+\setlength{\textheight}{22cm}
+\setlength{\textwidth}{6in}
+\setlength{\topmargin}{-0.0in}
+%\setlength{\marginparwidth}{0.0in}
+\setlength{\oddsidemargin}{0.15in}
+\setlength{\evensidemargin}{0.15in}
+%\setlength{\footskip}{-15mm}
+
+
+% define colors
+\definecolor{ultramarine}{RGB}{0,32,96}
+
+\definecolor{blue}{rgb}{0.0, 0.0, 1.0}
+\definecolor{red}{rgb}{0.77, 0.12, 0.23}
+
+
+% titre %
+\newcommand{\filloutheader}[3]
+{\pagebreak\setcounter{page}{1}
+        \begin{center}
+        {\Large \sc #1 }\\
+        \vspace{1.5cm}
+        \begin{minipage}[t]{3in}
+         {\small #2}
+        \end{minipage}
+        \hfill
+        \begin{minipage}[t]{120pt}\begin{flushright}
+         {\small #3}\end{flushright}
+        \end{minipage}
+        \end{center}
+        %\hrule
+}
+
+
+
+
+\newcommand{\makeheader}[0]
+{\filloutheader
+        {\textcolor{blue}{ \textbf{Data Scientist, Quantitative analyste et Mathématicien.}}}
+ % Hiding address from spiders
+  { FANIRISOA Z RAHANTAMIALISOA H. \\
+  	Adresse : 2 Rue Charles Marie Widor, 75016 Paris\\
+  	Mail : fanirisoa.zazaravaka@gamil.com\\
+  	Téléphone : 07 78 12 55 76\\
+  }
+}
+
+% Definition des catégories de rubriques.
+\newcommand{\categorie}[1]{\vspace*{1cm}\noindent%
+        {\large\sc{#1}\par}\vspace*{2pt}\hrule\vspace*{.4cm}}
+% On definit une colonne pour les dates
+\newlength{\duree}
+\settowidth{\duree}{\textbf{~Avril 2003~}}
+% La seconde colonnes doit occuper le reste de la page
+\setlength{\duree}{-\duree}
+\addtolength{\duree}{\textwidth}
+
+% Definition des rubriques.
+\newcommand{\rubrique}[2]
+{
+\noindent{\textbf{#1\ \ }}%
+   \parbox[t]{\duree}{#2}%
+ \linebreak \quad \vspace{0mm} 
+}
+
+\newcommand{\reference}[3]
+{
+\noindent #1\\ 
+{\footnotesize {#2}} \\
+\textsf{#3} \\
+\quad \vspace{0mm} 
+}
+
+%%%% fin macro %%%%
+
+
+\begin{document}
+
+%\thispagestyle{empty}
+
+\makeheader
+
+Fanirisoa bénéficie d'un double cursus universitaire en Mathématiques appliquées à l'Informatique et en Économie. Il a évolué dans les métiers de la finance, d'e grande distribution, de l'énergie et de l'agriculture. Scala, R, Python et Spark, Dataiku, Tableau  sont ses outils au quotidien. Il appartient au  \textcolor{red}{LaB Data Science d'Ebiznext}, laboratoire sur lequel sont réalisés les benchmarking autour des technologies émergentes (ex: Atlas, Gphi, Comet).
+
+
+\categorie{Situation professionnelle :}
+\begin{sloppypar}
+	
+\rubrique{2019-2020}{\textbf{Consultant : Data Scientist \& Machine learning engineer}}
+\rubrique{}{\textcolor{blue}{Le Groupe La Poste}}
+\rubrique{}{AI-Department of Data Science \& Lab Big Data} 
+
+\rubrique{}{- Projet \textcolor{red}{\textbf{CHLOE}}:  Étude et élaboration de la  migration de base de données de Oracle vers MySQL. Construire des packages et des fonctions pour la migration des données multimédias, Élaboration des tests unitaires automatisés.}	
+\rubrique{}{- Projet \textcolor{red}{\textbf{SI-FINANCE}}:  Étude et élaboration de la  migration de base de données de Oracle vers MySQL. Construire des packages et des fonctions pour la migration des données multimédias, Élaboration des tests unitaires automatisés.}		
+\rubrique{}{- Projet \textcolor{red}{\textbf{LaB-Attrition}}:  Étude et élaboration de la  migration de base de données de Oracle vers MySQL. Construire des packages et des fonctions pour la migration des données multimédias, Élaboration des tests unitaires automatisés.}		
+\rubrique{}{- Projet \textcolor{red}{\textbf{POST-IMMO}}:  Étude et élaboration de la  migration de base de données de Oracle vers MySQL. Construire des packages et des fonctions pour la migration des données multimédias, Élaboration des tests unitaires automatisés.}		
+\rubrique{}{- \textcolor{red}{Support incident DLG}:  Étude et élaboration de la  migration de base de données de Oracle vers MySQL. Construire des packages et des fonctions pour la migration des données multimédias, Élaboration des tests unitaires automatisés.}
+\rubrique{}{Technologies mobilisées : Python, R, Sage, SAS, MatLab, C++.}	\\
+
+\rubrique{2018-2020}{\textbf{Data Scientist, Machine learning engineer}}
+\rubrique{}{\textcolor{blue}{Ebiznext by Umanise}}
+\rubrique{}{ Lab data science \& Lab Big Data}
+
+
+\rubrique{}{-Projet \textcolor{red}{\textbf{Lab Data science}}:  réalisation de preuve de concept sur la maîtrise data analyse, data science  et data engineer  ebiznext.	Développement du pôle data scientist }	
+\rubrique{}{-Projet \textcolor{red}{\textbf{Comet}}:  Développement du pôle data engineer : élaboration  de la partie MetricJob dans le projet Comet (Outil d?ingestion des données).  Construction et implémentation des métriques et outils statistiques.  }	
+\rubrique{}{-Projet \textcolor{red}{\textbf{Tafeng}}:  Analyses descriptives et prédictives complètes sur des données transactionnelles (cas d?usage Tafeng dataset).}		
+\rubrique{}{-Projet \textcolor{red}{\textbf{Tafeng}}:  Détection des fraudes : Utilisation de Xgboost pour    }
+\rubrique{}{Technologies mobilisées : PySpark, Scala, Jupyter,  Gphi, No4j, Zeppelin.}	\\		
+
+	
+\rubrique{2014 - 2018}{\textbf{Chargé de recherche et d'enseignement}}
+\rubrique{}{\textcolor{blue}{Università Ca'Foscari Venezia}: Département Économie \& Finance}
+\rubrique{}{\textcolor{blue}{Université Paris 1 Panthéon-Sorbonne}: Département Mathématiques \& informatique}
+
+
+\rubrique{}{- Recherche et élaboration de mode?les prédictifs afin d?anticiper l?évolution des données tendances pour le LaBEX REFI (Laboratoire d?excellence en régulation financière) : Stochastic Volatility Modeling, Option pricing, Financial Regulation, Systemic Risk, Machin learning, Network Theory, Decision in the Portfolio Theory.}
+\rubrique{}{Technologies mobilisées : Python, R, Sage, SAS, MatLab.}	
+
+
+\rubrique{2018}{\textbf{Économiste \& Data analyst}}
+\rubrique{}{\textcolor{blue}{Institut de recherche pour le développement (IRD)}}
+\rubrique{}{Développement sociale \& immigration}
+
+\rubrique{}{- Projet \textcolor{red}{\textbf{Diaspora malagasy}}:  Le projet fait ressortir l?importance sociale, économique et financière des transferts. Analyse des donne?es pertinentes lie?es aux flux de transaction financiers, Élaboration et e?valuation d?une base de donne?es statistiques sur les flux financiers et les transferts monétaires entre la France et Madagascar en termes de personnes et d?organisations.}	
+\rubrique{}{Technologies mobilisées : Python, Microsoft Excel.}	
+
+
+\rubrique{2017}{\textbf{Data Scientist \& Data analyst}}
+\rubrique{}{\textcolor{blue}{Fact Madagascar}}
+
+\rubrique{}{- Projet \textcolor{red}{\textbf{Diaspora malagasy}}:  Étude du profil de la Diaspora Malagasy en France, analyse des données pertinentes liées aux flux de transaction financiers, élaboration et évaluation d'une base de données statistiques sur les flux financiers et les transferts monétaires entre la France et Madagascar.}	
+\rubrique{}{Technologies mobilisées : Python, STATA, R.}	
+
+
+\rubrique{2017}{\textbf{Data scientiste \& ingénieur informatique}}
+\rubrique{}{\textcolor{blue}{SOFTIA INGÉNIERIE}}
+\rubrique{}{Département DEV}
+
+\rubrique{}{- Projet \textcolor{red}{\textbf{GEODE}}:  Étude et élaboration de la  migration de base de données de Oracle vers MySQL. Construire des packages et des fonctions pour la migration des données multimédias, Élaboration des tests unitaires automatisés.}	
+\rubrique{}{Technologies mobilisées : PHP.}	
+
+\rubrique{2010}{Stage  au sein de l'assurance A.R.O (Assurance Réassurance Omnibrance) comme technicien d'actuariat. Département assurance vie: chargé d'études actuarielles, gestionnaire actif-passif, gestion de base de données.} 
+\end{sloppypar}
+	
+\categorie{Formation:}
+\rubrique{2014 - 2018}{Double Doctorat en Mathématiques appliquées et en économie soutenu publiquement le $30/11/2018$ à l'Université Paris 1 Panthéon-Sorbonne en collaboration avec Université Ca' Foscari Venezia.}
+\rubrique{}{Titre: "\textbf{Integration of $\mathrm{VIX}$ information in $\mathrm{GARCH}$ option pricing models}."\\
+Président: \textbf{Olivier Guéant},  Université Paris 1.\\
+Directeur: \textbf{Monica BILLIO}, Université Ca' Foscari Venezia.\\
+Co-Directeur: \textbf{Christophe CHORRO}, Université Paris 1.}\\
+
+ 
+\rubrique{2011 - 2013}{Double Master II: \textbf{Modélisation et Méthodes Mathématiques en Economie et Finance} (MMMEF) et \textbf{Quantitative Economics Master} (QEM II),\\
+Université Paris 1, Panthéon Sorbonne en partenariat avec l'Université de Bielefeld, Allemagne  et l'École Nationale Supérieure de Techniques Avancées \textbf{ENSTA}\\
+Titre: "\textbf{Mesure de risque, Mesures de risque spectrale, de distorsion}."\\
+Encadreur: \textbf{Dominique Guégan}, Université Paris 1.}
+
+
+\rubrique{2011 - 2012}{Master I: Quantitative Economics Master (QEM I), Université de Bielefeld.}
+\rubrique{2010 - 2011}{Master I: Mathematical Methods in Economics and Finance, Université Paris 1.}
+\rubrique{2008 - 2009}{D.E.A: \textbf{Diplôme d'études approfondies mathématiques pures en théorie des nombres} à l'Université d'Antananarivo, Département de Mathématiques.\\
+	Titre: "\textbf{Relation entre forme modulaire de Hilbert et courbe elliptiques sur un corps de nombres totalement réel}."\\
+	Encadreur: \textbf{Gérard RAZAFIMANANTSOA}, Université d'Antananarivo.}
+
+\rubrique{2007 - 2009}{D.E.S.S: \textbf{Diplôme d'études supérieures spécialisées  en finance} à l'Université d'Antananarivo, Département d'économie et finance, \\
+	Stage dans l'établissement : A.R.O (Assurance Réassurance Omnibrance),\\
+	Siège social : Antsahavola, Antananarivo,\\
+	Département : Actuariat, Assurance vie.}
+
+\rubrique{2007 - 2009}{Attestation d'étude approfondie (A.E.A) de Mathématiques Pures.}
+\rubrique{2006 - 2007}{Maîtrise en Mathématiques pure, Université d'Antananarivo.}
+\rubrique{2006 - 2007}{Licence d'économie en Macroéconomie, Université d'Antananarivo.}
+\rubrique{2002 - 2006}{Licence de mathématiques en analyse numérique et géométrie analytique, Université d'Antananarivo.}
+
+\categorie{Enseignements}
+Les enseignements suivants ont été principalement dispensés en tant que ATER dans
+l'UFR 27 (Mathématiques et Informatique) de l'université Paris 1, ou chargé de travaux dirigés dans  le département de Mathématiques  de l'université d'Antananarivo:\\
+
+
+\rubrique{2015 - 2018}{Chargé de Travaux Dirigés d'\textbf{Intégration et Probabilités} en Licence (L3)  MASS.\\
+Université de Paris 1 Panthéon-Sorbonne (Centre Tolbiac).}
+
+\rubrique{2015 - 2018}{Chargé de Travaux Dirigés d'\textbf{Analyse  dans $ \mathbb{R}^{n} $} en Licence L2 MASS.\\
+	Université de Paris 1 Panthéon-Sorbonne (Centre Tolbiac).}
+
+\rubrique{2015 - 2018}{Chargé de Travaux Dirigés  d'\textbf{Analyse  dans $\mathbb{R}$} en Licence L1 MASS.\\
+	Université de Paris 1 Panthéon-Sorbonne (Centre Tolbiac).}
+
+\rubrique{2008 - 2010}{  Chargé de Travaux Dirigés du module  d'\textbf{Algèbre $ 2 $} en deuxième année de mathématiques. Université d'Antananarivo (Ankatso).}
+
+\rubrique{2008 - 2010}{  Chargé de Travaux Dirigés du module  d'\textbf{Algèbre $1$} en première année de mathématiques. Université d'Antananarivo (Ankatso).}
+
+\rubrique{2009 - 2010}{Chargé du mini-cours  \textbf{Mathématiques de gestion} en deuxième année de gestion.\\
+	Ecole Supérieure de Maintenance de Gestion et de Communication sise à Manakambahiny, Antananarivo Madagascar.}
+
+\rubrique{2009 - 2010}{Chargé du mini-cours \textbf{Introduction aux calculs Mathématiques} .\\
+	Ecole Supérieure de Maintenance de Gestion et de Communication sise à Manakambahiny, Antananarivo Madagascar.}
+
+
+\categorie{Publications :}
+\rubrique{23-07-2019}{\textbf{Option Valuation with IG-GARCH model and an \textbf{U}-Shaped pricing kernel}.\\
+	 Auteurs :  Rahantamialisoa Fanirisoa \& Christophe Chorro \\
+	 DOI: 10.1007/s00500-019-04236-4\\
+	Published in  Journal of Soft Computing}\\
+
+\rubrique{23-12-2019}{\textbf{Discriminating between GARCH models for option pricing by their ability to compute accurate VIX measures}.\\
+	Auteurs :  Rahantamialisoa Fanirisoa \& Christophe Chorro \\
+	HAL : halshs-02323959\\
+	Submitted in  Journal of Financial Econometrics}\\
+
+\rubrique{15-07-2019}{\textbf{A new two-step estimation strategy for non-Gaussian GARCH models}.\\
+	Auteurs :  Rahantamialisoa Fanirisoa \& Christophe Chorro \\
+	DOI: 10.13140/RG.2.2.10299.85282\\
+	Submitted in  Journal of Empirical Finance}\\
+
+
+\rubrique{05-06-2018}{\textbf{Distorted elliptical bimodal distribution using an inverse $S$-shaped distortion function}.\\
+Auteurs :  Rahantamialisoa Fanirisoa  \\
+Documents de travail du Centre d'Économie de la Sorbonne 2016.74. }
+
+	
+\categorie{Certifications}
+\rubrique{20-06-2019 }{\textbf{Databricks Certified Developer - Apache Spark 2.x for Scala} \\
+	Databricks\\
+    Credential ID : 0000000053.}\\
+
+
+\rubrique{18-09-2018 }{\textbf{Certificat Data Science and Big Data} \\
+	Université Paris Dauphine- PSL\\
+	No Expiration Date}\\
+
+
+\rubrique{18-06-2018 }{\textbf{Data Visualization with ggplot2} \\
+	DataScientest.com\\
+	Credential ID : 500BE6-5FA84A-94E61B-37FDA6e\\
+    No Expiration Date}\\
+
+
+\rubrique{18-06-2018 }{\textbf{Data-visualization with Matplotlib} \\
+	DataScientest.com\\
+	Credential ID : BB9D54-41518E-885DDB-44E833\\
+	No Expiration Date}\\
+
+\rubrique{18-06-2018 }{\textbf{Machine learning with R} \\
+	DataScientest.com\\
+	Credential ID : 3A1745-2C5AE1-F6927C-EFC70B\\
+	No Expiration Date}\\
+
+
+\rubrique{18-06-2018 }{\textbf{Machine learning with Scikit-learn} \\
+	DataScientest.com\\
+	Credential ID : F1BBDD-C10A44-A86A89-98A995\\
+	No Expiration Date}\\
+
+\rubrique{18-06-2018 }{\textbf{Natural language processing} \\
+	DataScientest.com\\
+	Credential ID : 4EC3AA-326AD3-241FAF-752A14\\
+	No Expiration Date}\\
+
+\rubrique{18-06-2018 }{\textbf{HTML5 et CSS3} \\
+	OpenClassrooms\\
+	Credential ID : 8323417747\\
+	No Expiration Date}\\
+
+
+\rubrique{2016-2017 }{\textbf{Data Scientist} \\
+	ORT France, Programme Paris Code de la Mairie de Pari\\
+	No Expiration Date}\\
+
+
+
+
+\categorie{Prix et distinctions}
+\rubrique{2014-2017}{Allocation de recherche au doctorat \textbf{ERASMUS Mundus} de l'Union européenne pour le programme European Doctorate in Economics Erasmus Mundus (\textbf{EDEEM}) l'Université Paris 1 Panthéon Sorbonne.}
+
+
+\vspace{1mm}
+\rubrique{2011-2013}{Allocation d'excellence:  \textbf{ERASMUS Mundus scholarship} pour le programme Quantitative Economics Master (\textbf{QEM}), l'Universités de Bielefeld, Allemagne et l'Université Paris 1 Panthéon Sorbonne.}
+
+
+\vspace{1mm}
+\rubrique{Oct-2016}{\textbf{Second prix Startup Afrique} avec le projet \textbf{Magie}: Magnetique-enerGIE. Énergies renouvelables, Fabrication de l'électricité renouvelable à travers un petit générateur magnétique. C'est une source d'énergie propre et non polluante, adapte aux appareils à faible consommation d'énergie.}
+
+
+\vspace{1mm}
+\rubrique{Nov-2015}{\textbf{Premier prix Startup Weekend Madagascar} avec le projet \textbf{MadaReVe}: Madagascar Révolution Verte. Élabore sur l'économie sociale et solidaire avec l'utilisation de techniques de production adéquates. C'est un ensemble de techniques agricoles et de stratégies d'organisation. Développer une agriculture écologique, la localisation des circuits courts de distribution, préférer le capital temps ou relationnel à celui économique ou matériel.}
+
+\categorie{Compétences en informatiques :}
+\rubrique{Systèmes}{Windows XP, Linux. }
+\rubrique{Data base}{MySQL, PostgreSQL, Oracle. }
+\rubrique{Logiciels}{Microsoft office, Open Office.}
+\rubrique{Langages}{C/C++, MATLAB, Maple, STATA, SAS, SAGE, Latex, R, Mathematica, php, HTML, CSS, python, SCALA.}
+
+\categorie{Compétences en linguistiques :}
+\rubrique{Malgache}{Langue maternelle.}
+\rubrique{Français}{Niveau excellent (Prendre part à une conversation, s'exprimer oralement en continu).}
+\rubrique{Anglais}{Très bon niveau (Pratiqué pendant $ 5 $ ans  en ERASMUS Anglais scientifique.)}
+
+
+\categorie{Références:}
+\vspace{3mm}
+\begin{sloppypar}
+\rubrique{Monica Billio :}{Professor, Encadreur durant \textbf{P.H.D} en économie \\ 
+	Département d'économie, Università Ca' Foscari Venezia\\ 
+	Responsable de l'axe de "Economia e Finanza"\\ 
+	Téléphone : 041 234 9170\\ 
+	Email : billio@unive.it}
+
+\vspace{4mm}
+\rubrique{Christophe Chorro :}{Maître de conférences HDR, Encadreur durant \textbf{P.H.D} en mathématique \\ 
+	Département de mathématiques (UFR 27), Université Paris 1\\
+	Responsable de l'axe de recherche Finance en coopération avec le LaBex\\ 
+	Téléphone : 061 64 525 71\\ 
+	Email : christophe.chorro@gmail.com}
+\vspace{4mm}
+
+\rubrique{Adolphe Ratiarison :}{Professor titulaire, Encadreur durant projet \textbf{MaGIE}\\ Département de Physiques BP 906, Université d'Antananarivo\\ 
+	Responsable de l'axe de recherche Rhéologie des suspensions\\ 
+	Téléphone : +261 32 04 266 58\\ 
+	Email : aaratiarison@yahoo.fr}
+
+\vspace{4mm}
+\rubrique{Gérard Razafimanatsoa :}{Maître de conférences, Encadreur durant \textbf{D.E.A} Mathématiques\\ 
+Département de Mathématiques, Université d'Antananarivo\\ 
+Responsable de l'axe de recherche théorie des nombres\\
+Téléphone : +261 32 07 905 28\\ 
+Email : grazafi@gmail.com}
+
+\vspace{4mm}
+\rubrique{Mahenina Ranaivo:}{Directeur au département assurance vie de la compagnie d'assurance A.R.O\\ 
+	Department life insurance, A.R.O, Antsahavola\\ 
+	Téléphone : +261 20 22 512 75\\ 
+	Email : mahenina@aro.mg}
+
+\end{sloppypar}
+\categorie{Qualités professionnelles:}
+\vspace{3mm}
+\rubrique{}{Créativité, sens de l'innovation, ouverture d'esprit, culture générale, capacité d'adaptation,  rapidité, curiosité, persévérance, autonomie, capacité de décision, travail en équipe et Sens de la communication.}
+\vspace{2mm}
+
+\rubrique{Bénévolat}{Responsable de l'association des Jeunes de l'église de Saint Benoit, Animation des séances de rencontre, organisation d'activité sociale et spirituel}
+\rubrique{Passion}{Cinéma, technologie, football, vin, chess. }
+\rubrique{Sport}{Aïkido, Wing chun, Jeet kune do.}
+ 
+
+\categorie{Résumés de la thèse:}
+Nous avons \'{e}tudi\'{e}, durant la thèse, les applications des processus GARCH dans la th\'{e}orie de l'\'{e}valuation des options pour calculer les prix des options europ\'{e}ennes, en utilisant diff\'{e}rents "pricing kernel" ainsi qu'une strat\'{e}gie d'estimation int\'{e}grant des informations sur les rentabilit\'{e}s, les options ou les informations issus du VIX-index. Nous avons appliqu\'{e} l'analyse sur un jeu de donn\'{e}es d'option de l'indice $\mathrm{S\&P}500$, de $ 1999 $ \`{a} $ 2012 $. Le noyau de cette recherche est structur\'{e}e dans le but :
+\begin{sloppypar}
+\begin{itemize}
+\item Premi\`{e}rement :  d'approfondir l'approche IG-GARCH qui souligne l'importance de  capture la caract\`{e}re leptokurtique et les queues  \'{e}paisses des distributions empiriques des rentabilit\'{e}s comme  propos\'{e}e par \cite{Christoffersen2006}.  Suivant les hypothèses de \cite{Christoffersen2006}, nous supposons que, sous la mesure de probabilité historique $\mathbb{P} $, le logarithme des rendements de l'actif sous-jacent  $ (S_t)_ {t \in \{0, ..., T \}} $ satisfait:
+\begin{equation}\label{equa1}
+\left\{
+\begin{array}{rcl}
+Y_{t+1}=\log\left(\frac{S_{t+1}}{S_{t}}\right) & = &  r+\nu h_{t+1} +\eta y_{t+1} \\
+h_{t+1}& = &w+bh_{t} + cy_{t} +a\frac{h_{t}^{2}}{y_{t}}\\
+\end{array}
+\right.
+\end{equation}
+où $a_0>0$, $a_1\geq 0$, $b_1\geq 0$ et  $(y_t)_{ t\in \{1,...,T\}}$ sont des variables aléatoires  adaptée à la filtration $(\mathcal{F}_t)_{ t\in \{0,...,T\}}$ où $\mathcal{F}_0=\{\emptyset,\Omega\}$ et $(\mathcal{F}_t=\sigma(y_u;  1 \leq u\leq t))_{ t\in \{1,...,T\}}$.
+
+\item Deuxi\`{e}menent :  de proposer une extension non monotone de l'exponentiel affine "Pricing kernel" qui poss\`{e}de  une fonction exponentielle en forme de $ U $ pour augmenter la flexibilit\'{e} du lien entre les distributions risque au neutre et les distributions historiques, car le traitement du mod\`{e}le est bien pr\'{e}serv\'{e}e.  Inspirés par la transformation d'Esscher de second ordre récemment introduite par \cite{Monfort2012} pour le cas gaussien, nous incluons le terme $ \dfrac{\rho_ {t}}{y_ {t}} $ dans la spécification de pour pouvoir générer une fonction exponentielle\footnote{On a $M^{Ushp}_{t}=e^{\theta_{t}\eta y_t+\frac{\rho_{t}}{y_{t}}+\varepsilon_{t}+\theta_{t} (r+\nu h_t)}$.} 
+ en forme de $ U $:
+\begin{equation*}
+\forall t\in \{0,\cdots,T\}, \qquad M^{Ushp}_{t}=e^{\theta_{t}Y_{t}+\varepsilon_{t}+\frac{\rho_{t}}{y_{t}}}=e^{\theta_{t}Y_{t}+\varepsilon_{t}+\frac{ \eta \rho_{t}}{Y_{t}-r-\nu h_{t+1}}}    
+\end{equation*}
+où $\theta_{t}$, $\varepsilon_{t}$ et $ \rho_{t} $ sont des variables aléatoires $\mathcal{F}_{t-1}$ mesurables. 
+\item  Troisi\`{e}mement :  de proposer  une strat\'{e}gie d' estimation bas\'{e}e sur les informations de return-VIX qui g\'{e}n\`{e}re des erreurs de valorisation d'option tr\`{e}s raisonnable  avec  un faible co\^{u}t de calcul comme d\'{e}taill\'{e} dans \cite{Christoffersen2012} et \cite{Kanniainen2014}. 
+\item Quatri\`{e}mement : de proposer une proc\'{e}dure alternative aux d\'{e}fis de l'estimation de GARCH bas\'{e}e  sur l'utilisation du  "Two steps Modified-Quasi Maximum Likelihood (QML)". Nous nous concentrons sur l'estimation des processus GARCH avec la Normal Inverse Gaussian (NIG) comme distribution conditionnelle ( \cite{Chorro2012}).
+\end{itemize}
+\end{sloppypar}
+
+Passons maintenant aux performances, qui sont analys\'{e}es plus en d\'{e}tail au chapitre 3. l'analyse est bas\'{e}e sur l'utilisation d'une vaste collection de mod\`{e}les GARCH. Nous nous interrogerons notamment sur la synergie entre le choix de la sp\'{e}cification GARCH affine ou non, l'utilisation  d'alternatives  \`{a} la distribution gaussienne, la s\'{e}lection d'un SDF correct ainsi que le choix de diverses strat\'{e}gies d'estimation.  Ainsi, nous avons test\'{e} 24 combinaisons associ\'{e}es \`{a} 4 diff\'{e}rentes sp\'{e}cifications de GARCH (HN, GJR, IG-GARCH, NGARCH), 3 distributions (Gaussien, NIG, Gaussien inverse), 4 SDF. Il convient de noter que nous avons pu y parvenir en effectuant une comparaison empirique approfondie bas\'{e}e non seulement sur les performances des prix "in-sample" et "out of sample", mais principalement sur l'utilisation d'une strat\'{e}gie de fenêtre glissante hebdomadaire dans laquelle chaque estimation du mod\`{e}le du mercredi a \'{e}t\'{e} faite pour \'{e}valuer les options une semaine plus tard.  Ensuite, nous avons calcul\'{e} le carr\'{e} moyen de la volatilit\'{e} implicite (IVRMSE) attribu\'{e} \`{a} chaque mod\`{e}le. Cela a \'{e}t\'{e} fait pour faire une estimation et une comparaison des erreurs de prix sur les donn\'{e}es de retour option et les donn\'{e}es VIX en tant que mesures de performance. Nous avons obtenu des r\'{e}sultats empiriques tr\`{e}s pr\'{e}cis et tr\`{e}s convaincants:
+\begin{sloppypar}
+\begin{itemize}
+\item  En effet, il d\'{e}montre la sup\'{e}riorit\'{e} du "Pricing kernel"  exponentiel en U en termes d'approximation du prix des options pour l'indice du $\mathrm{S\&P}500$ pour la p\'{e}riode consid\'{e}r\'{e}e. Nous avons soigneusement effectu\'{e} un test $ GMM $ n\'{e}cessaire au contr\^{o}le de la validit\'{e} de chaque Pricing kernel. Le choix de ce Pricing kernel a am\'{e}lior\'{e} les performances  de la valorisation des options en utilisant le mod\`{e}le IG-GARCH. 
+\item  En ce qui concerne les sp\'{e}cifications GARCH  affines et non affines dans le cadre des innovations NIG, nous pouvons conclure des r\'{e}sultats du chapitre 2 que le mod\`{e}le GARCH-GJR associ\'{e} aux distributions NIG est consid\'{e}r\'{e} comme un candidat ad\'{e}quat si nous parlons de processus de d\'{e}termination du prix d'option.
+\item  En outre, nous avons obtenu des r\'{e}sultats clairs qui montrent que les informations du VIX-index  soutiennent l'am\'{e}lioration des performances des mod\`{e}les GARCH-GJR avec l'hypoth\`{e}se d'innovation NIG. Gr\^{a}ce \`{a} ces r\'{e}sultats, nous pouvons affirmer que l'efficacit\'{e} des pr\'{e}visions de valorisation des options et leur temps de calcul sont \'{e}galement am\'{e}lior\'{e}s. Sur cette question, nous avons d\'{e}couvert que l'estimation combin\'{e}e  avec  les  VIX-index et les rendements donne des erreurs de valorisation concurrentielles \`{a} un co\^{u}t de calcul tr\`{e}s raisonnable compar\'{e} aux proc\'{e}dures d'estimation par options.
+\item Pour le mod\`{e}le NGARCH, les r\'{e}sultats sont aussi attractifs dans le cas o\`{u} nous utilisons le processus de neutralisation du risque EGP avec la strat\'{e}gie d'estimation en deux \'{e}tapes que nous venons de d\'{e}velopper au chapitre 2.
+\end{itemize}	
+Par cons\'{e}quent, l'analyse des diff\'{e}rents mod\`{e}les en utilisant des informations issues du VIX fournit une tr\`{e}s bonne indication sur les performances \`{a} un co\^{u}t de calcul tr\`{e}s raisonnable. De cette mani\`{e}re, la comparaison des performances \`{a} partir des informations issues du VIX  sembl\'{e} \^{e}tre une premi\`{e}re \'{e}tape d'\'{e}valuation tr\`{e}s int\'{e}ressante et parcimonieuse pour \'{e}liminer les pires GARCH mod\`{e}les de valuation des prix d'option.\\
+\end{sloppypar}
+
+
+\bibliographystyle{elsarticle-harv.bst} 
+%\bibliographystyle{ThesisStyle}
+%\bibliography{Thesis}
+
+
+\begin{thebibliography}{10}	
+\bibitem[Christoffersen  {\it et al.} (2006)]{Christoffersen2006} \textcolor[rgb]{0,0,0}{P.  Christoffersen,  S. Heston  and K. Jacobs (2006), Option valuation with conditional Skewness , {\it  Journal of Econometrics}, {\bf 131}, 253-284.}
+
+\bibitem[Christoffersen  {\it et al.} (2012)]{Christoffersen2012} \textcolor[rgb]{0,0,0}{P.  Christoffersen,  K. Jacobs  and C. Ornthanalai (2012), Dynamic Jump Intensities and Risk Premiums: Evidence from $ S\&P500 $ Returns and Options, {\it Journal of Financial Economics},  {\bf 106}, 447-472.}
+
+\bibitem[Chorro   {\it et al.} (2012)]{Chorro2012} \textcolor[rgb]{0,0,0}{C. Chorro, D. Gu\'egan  and F. Ielpo  (2012), Option pricing for GARCH-type models with generalized hyperbolic innovations, {\it Quantitative Finance }, {\bf 12}(7), 1079-1094.}
+
+\bibitem[Monfort \& P\'egoraro   (2012)]{Monfort2012}\textcolor[rgb]{0,0,0}{A. Monfort  and F.  P\'egoraro  (2012), Asset pricing with second order Esscher transforms.  {\it Journal of Banking and Finance}, {\bf 36}(6), 1678-1687.}
+
+\bibitem[Kanniainen {\it et al.}  (2014)]{Kanniainen2014} \textcolor[rgb]{0,0,0}{J. Kanniainen, L. Binghuan   and  Y. Hanxue (2014), Estimating and using GARCH models with VIX data for option valuation, {\it Journal of Banking \& Finance}, {\bf 43}(C), 200-211.}
+
+
+
+\end{thebibliography}
+
+ \end{document}
