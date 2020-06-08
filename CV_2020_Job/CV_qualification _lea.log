@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.16)  7 JUN 2020 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.16)  8 JUN 2020 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,9 +403,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--156
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 157--157
+Underfull \hbox (badness 1648) in paragraph at lines 157--157
 []\OT1/cmr/m/n/10 - Pro-jet []\OT1/cmr/bx/n/10 Di-as-pora mala-gasy[]\OT1/cmr/m
-/n/10 : Le pro-jet fait ressor-tir l?importance so-ciale,
+/n/10 : Le pro-jet fait ressor-tir l'importance so-ciale,
  []
 
 
@@ -660,7 +660,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  2713 strings out of 492616
  36949 string characters out of 6129480
- 104809 words of memory out of 5000000
+ 105809 words of memory out of 5000000
  6571 multiletter control sequences out of 15000+600000
  7946 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -673,7 +673,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "CV_qualification _lea.pdf" (6 pages, 119119 bytes).
+Output written on "CV_qualification _lea.pdf" (6 pages, 118854 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
