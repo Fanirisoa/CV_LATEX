@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.16)  9 JUN 2020 02:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.16)  11 JUN 2020 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -194,18 +194,18 @@ Package color Info: Redefining color red on input line 37.
 (./CV_qualification _lea.aux)
 \openout1 = `"CV_qualification _lea.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -273,35 +273,35 @@ e
 ))
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 106.
+(Font)              using `OT1/cmr/bx/n' instead on input line 104.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
   []
  []
 
@@ -323,21 +323,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
 Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--133
-  []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--133
-  []
  []
 
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
+  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
+  []
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 135--139
   []
  []
@@ -360,11 +360,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--139
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
   []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
-
  []
 
 
@@ -400,12 +395,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--157
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--157
   []
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 158--158
-[]\OT1/cmr/m/n/10 - Pro-jet []\OT1/cmr/bx/n/10 Di-as-pora mala-gasy[]\OT1/cmr/m
-/n/10 : Le pro-jet fait ressor-tir l'importance so-ciale,
  []
 
 
@@ -482,12 +471,12 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 184.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
   []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
+Underfull \hbox (badness 10000) in paragraph at lines 184--188
 
  []
 
@@ -546,7 +535,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-[4]
+
 Overfull \hbox (0.94443pt too wide) in paragraph at lines 271--272
 \OT1/cmr/bx/n/10 18-06-2018   []
  []
@@ -556,7 +545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-
+[4]
 Overfull \hbox (0.94443pt too wide) in paragraph at lines 277--278
 \OT1/cmr/bx/n/10 18-06-2018   []
  []
@@ -658,13 +647,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2713 strings out of 492616
- 36949 string characters out of 6129480
+ 2714 strings out of 492616
+ 36957 string characters out of 6129480
  104863 words of memory out of 5000000
- 6571 multiletter control sequences out of 15000+600000
+ 6572 multiletter control sequences out of 15000+600000
  7946 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,27p,685b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,5n,27p,685b,207s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -673,7 +662,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "CV_qualification _lea.pdf" (6 pages, 119225 bytes).
+Output written on "CV_qualification _lea.pdf" (6 pages, 119368 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
